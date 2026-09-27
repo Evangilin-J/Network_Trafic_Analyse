@@ -1,0 +1,25 @@
+Wireshark Display Filters Reference Sheet
+
+1. IP Traffic
+ip
+
+2. TCP Traffic (Transport Control Protocol)
+tcp
+
+3. DNS Traffic (Domain Name System)
+dns
+
+4. HTTP Traffic (Unencrypted Web Requests)
+http
+
+5. TLS Traffic (Secure Encrypted Communication)
+tls
+
+6. ICMPv6 Traffic (IPv6 Control Messages)
+icmpv6
+
+7. TCP SYN Packet (Connection Request)
+tcp.flags.syn == 1
+
+8. TCP SYN-ACK Packet (Connection Acknowledgement)
+tcp.flags.syn == 1 && tcp.flags.ack == 1
